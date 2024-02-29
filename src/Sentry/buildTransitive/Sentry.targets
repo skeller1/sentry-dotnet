@@ -20,7 +20,9 @@
     <ItemGroup>
       <SentryAttributes Include="System.Reflection.AssemblyMetadata">
         <_Parameter1>Sentry.ProjectDirectory</_Parameter1>
+        <_Parameter1_TypeName>System.String</_Parameter1_TypeName>
         <_Parameter2>$(ProjectDir)</_Parameter2>
+        <_Parameter2_TypeName>System.String</_Parameter2_TypeName>
       </SentryAttributes>
       <!-- Ensure not part of Compile, as a workaround for https://github.com/dotnet/sdk/issues/114 -->
       <Compile Remove="$(SentryAttributesFilePath)" />
